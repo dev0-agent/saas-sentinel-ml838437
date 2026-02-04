@@ -30,4 +30,12 @@ Use this format when adding learnings:
 
 ## Learnings Log
 
-_(Agents will append their learnings below as tasks are completed)_
+### Task: Configure Environment & Database Connection
+- **Completed:** 2026-02-04
+- **Task ID:** 0dd5d3f8-9c8c-4ba0-8f49-afab3d51c97a
+- **Learnings:**
+  - Installed `drizzle-orm`, `postgres.js`, and `zod` as they were missing from the initial template.
+  - Used `zod` for environment variable validation in `src/utils/env.ts`.
+  - Configured Drizzle client in `src/db/client.ts` using `postgres.js` driver.
+  - Created a placeholder `src/db/schema.ts` to satisfy Drizzle initialization requirements.
+
