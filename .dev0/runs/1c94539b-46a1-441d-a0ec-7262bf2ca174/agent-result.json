@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "commitMessage": "feat(db): define projects and issues schema with migrations",
+  "prTitle": "Define Database Schema for Projects and Issues",
+  "prBody": "Defined the Drizzle ORM schema for `projects` and `issues` tables, including enums for issue type, status, and priority. Generated the initial SQL migration.",
+  "notes": "Schema defined and migrations generated successfully. Used `serial` for IDs. Added `drizzle.config.ts`."
+}

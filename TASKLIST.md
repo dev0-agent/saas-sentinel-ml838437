@@ -10,7 +10,7 @@ It is automatically updated by dev0 as tasks are completed.
 - [x] ✅ **Configure Environment & Database Connection**
   Create a `src/utils/env.ts` file to validate environment variables (DATABASE_URL). Configure Drizzle ORM client in `src/db/client.ts`. Ensure the project can connect to the database.
 
-- [ ] ⏳ **Define Database Schema**
+- [x] ✅ **Define Database Schema**
   Create Drizzle schema files for `projects` and `issues`. 
 
 Projects: id, name, description, created_at.
